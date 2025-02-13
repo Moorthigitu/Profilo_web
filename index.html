@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <title></title>
+</head>
+<body>
+  <nav>
+    <div id="nav1">
+      <h2>Navbar</h2>
+      <ul class="show">
+        <a href="#"><li>Home</li></a>
+        <a href="about.html"><li>About</li></a>
+        <a href="Projects.html"><li>Projects</li></a>
+        <a href="download.html"><li>Resume Download</li></a>
+      </ul>
+      <div class="menu">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+    </div>
+  </nav>
+ <center> <div id ='container'>
+    <div id='pic'>
+      <img src="user.png">
+    </div>
+    <div id='username'>
+      <h1>Moorthi</h1>
+    </div>
+    <div id='intro'>
+      <p>I'm a passionate Web Developer skilled in HTML, CSS, JavaScript, and Flutter. I love building responsive and interactive web applications.</p>
+    </div>
+  </div></center>
+<script>
+ var var1=document.querySelector(".menu");
+  var var2=document.querySelector("ul,li")
+  console.log(var2)
+  var1.addEventListener("click",()=>{
+    
+      /*var2.style.display="block";*/
+      var2.classList.toggle("show")
+      
+    }
+  )
+  
+</script>
+</body>
+</html>

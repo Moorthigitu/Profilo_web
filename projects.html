@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<title>Project</title>
+</head>
+<style>
+  
+  #cart1{
+
+    margin: 20px;
+    padding: 40px;
+    border: 1px solid white;
+    border-radius: 40px;
+    box-shadow: 40px;
+    width: 240px;
+    height: 430px;
+    background-color: beige;
+  }
+  p{
+    width: 200px;
+    
+    margin-left: 24px;
+    font-family: sans-serif;
+  }
+  #cart{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+  }
+  #cart1 h1{
+    
+    
+    font-family: sans-serif;
+    margin-left: 24px;
+  }
+#cart1 img{
+  margin-left: 24px;
+}
+#cart1 a{
+  margin-top: 220px;
+  margin-left:84px;
+  text-decoration: none;
+  font-size: 20px;
+}
+ 
+
+/*#cart{
+  margin: 20px;
+  padding: 20px;
+    border: 1px solid white;
+    border-radius: 40px;
+    box-shadow: 40px;
+    width: 240px;
+    height: 430px;
+    background-color: beige;
+}
+#cart h1{
+    color: black;
+    
+    font-family: sans-serif;
+    margin-left: 24px;
+  }
+  #cart img{
+  margin-left: 24px;
+}
+
+p{
+    width: 200px;
+    
+    margin-left: 24px;
+    font-family: sans-serif;
+  }
+                 */       
+</style>
+<body>
+  <nav>
+    <div id="nav1">
+      <h2>Navbar</h2>
+      <ul class="show">
+        <a href="index.html"><li>Home</li></a>
+        <a href="about.html"><li>About</li></a>
+        <a href="#"><li>Projects</li></a>
+        <a href="download.html"><li>Resume Download</li></a>
+      </ul>
+      <div class="menu">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+    </div>
+  </nav>
+  <!---------------------------------Project cart----------------------------------------------------->
+  <div id="cart">
+    <div id="cart1">
+      <img src="E:\html-css\webtask\profillo.webp">
+      <h1>Portfolio Websites</h1>
+        <p>Designed and developed my personal portfolio using HTML, CSS, and JavaScript.</p>
+        <a href="#">Githup</a>
+    </div>
+     <div id="cart1">
+      <img src="E:\html-css\webtask\profillo.webp">
+      <h1>Portfolio Websites</h1>
+        <p>Designed and developed my personal portfolio using HTML, CSS, and JavaScript.</p>
+        <a href="#">Githup</a>
+    </div>
+    <div id="cart1">
+      <img src="E:\html-css\webtask\profillo.webp">
+      <h1>Portfolio Websites</h1>
+        <p>Designed and developed my personal portfolio using HTML, CSS, and JavaScript.</p>
+        <a href="#">Githup</a>
+    </div>
+
+    <div id="cart1">
+      <img src="E:\html-css\webtask\profillo.webp">
+      <h1>Portfolio Websites</h1>
+        <p>Designed and developed my personal portfolio using HTML, CSS, and JavaScript.</p>
+        <a href="#">Githup</a>
+    </div>
+
+
+  </div>
+
+  <script>
+ var var1=document.querySelector(".menu");
+  var var2=document.querySelector("ul,li")
+  console.log(var2)
+  var1.addEventListener("click",()=>{
+    
+      /*var2.style.display="block";*/
+      var2.classList.toggle("show")
+      
+    }
+  )
+  
+</script>
+</body>
+</html>
